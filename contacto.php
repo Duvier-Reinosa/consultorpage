@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultor Page</title>
+    <title>Contacto</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -12,27 +12,26 @@
 </head>
 <body>
         <header class="header">
-            <h1 class="name">ConsultorPage</h1>
-            <a href="./contacto.php">
+            <a href="index.html"><h1 class="name">ConsultorPage</h1></a>
+            <a href="#">
                 Contacto
             </a>
         </header>
-        <div class="bodyContainer">
+        <div class="bodyContainer2">
+            <div class="section2">
+            <form action="" method="post" class="form">
+                <input type="text" name="nombreEmpresaWeb" placeholder="Nombre de la empresa o web" class="input">
+                <input type="text" name="email" placeholder="Correo electrónico" class="input">
+                <input type="text" name="nombreEncargado" placeholder="Nombre del encargado" class="input">
+                <button type="submit" name="register" class="submitButton">Envíar</button>
+            </form>
+            <?php
+            include("registrar.php");
+        ?>
+            </div>
             <div class="section1">
-                <h1 class="tituloPrincipal">Con nosotros:</h1>
-                <h3 class="tituloSecundario">¡Vendes más!</h3>
-                <h3 class="tituloSecundario">¡Ganas más!</h3>
                 <div class="imagen1COntainer">
                     <img src="imagenes/imagen1.png" alt="">
-                </div>
-            </div>
-            <div class="section2">
-                <h1>Consulta tu web</h1>
-                <p class="parrafo">-#1 en motores de busqueda. <br>
-                -Contenido enrriquecedor para el usuario. <br>
-                -Profesionales enfocados en hacerte crecer.</p>
-                <div class="imgContainerSeo">
-                    <img src="imagenes/seo.png" alt="" class="imgSeo">
                 </div>
             </div>
         </div>

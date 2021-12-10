@@ -43,6 +43,14 @@ a{
     margin: auto;
     margin-top: 30px;
 }
+.bodyContainer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+}
 .section1{
     width: 500px;
     height: 400px;
@@ -87,4 +95,34 @@ a{
 .imgSeo{
     width: 220px;
     height: 220px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+.input{
+    width: 90%;
+    height: 35px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    margin-top: 20px;
+    text-indent: 10px;
+}
+.submitButton{
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background: #329dda;
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+    float: right;
+    cursor: pointer;
 }
